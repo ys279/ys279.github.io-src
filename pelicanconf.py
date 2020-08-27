@@ -6,7 +6,7 @@ SITENAME = 'Data Science Portfolio'
 SITEURL = ''
 
 PATH = 'content'
-THEME = "/Users/jiachuancui/pelican-themes/cebong"
+THEME = "/Users/jiachuancui/pelican-themes/clean-blog"
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
