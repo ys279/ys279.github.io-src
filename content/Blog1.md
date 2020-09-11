@@ -1,7 +1,6 @@
 Title: Yiping's Blog1
 Date: 2020-08-25 20:55
-
-# How to Create a Static Page on Github 
+headline:How to Create a Static Page on Github 
 
 
 
