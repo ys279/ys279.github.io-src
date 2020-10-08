@@ -2,11 +2,14 @@ Title: Informative Visualizations about Malaria
 Date: 2020-09-20 20:55
 headline: Yiping's Blog3
 
-Create  informative visualizations about malaria using Python 
+Create  informative visualizations about malaria using Python  
+
+
+
 Malaria is a serious and sometimes fatal disease caused by a parasite that commonly infects a certain type of mosquito which feeds on humans. Using python to visualize malaria distribution and malaria death
 
 
-
+![Pelican](../images/ma.png)
 
 ## Download Data
 
@@ -31,7 +34,7 @@ pd3 = pd.read_csv(url)
 ```python
 pd.options.plotting.backend = 'plotly'
 ```
-## First  visualization about malaria_death Data
+## visualization about malaria_death 
 
 ```python
 
@@ -46,12 +49,12 @@ pd1.plot.scatter(
 
 ![Pelican](../images/1.png)
 
-## From this plot, we can see most of the country have the trend of  coming down for death rate from 1990 to 2015. (detailed plot shown in uploaded ipynb file in homework3.
+### From this plot, we can see most of the country have the trend of  coming down for death rate from 1990 to 2015. (detailed dynamic plot shown in uploaded ipynb file in github.)
 
 
 
 
-## Deal with malaria_deaths_age dataset
+### Deal with malaria_deaths_age dataset
 
 ```python
 pd2["mean"] = np.nan
@@ -84,7 +87,11 @@ pd22 = pd2.drop(columns=['year', 'code',"deaths","Unnamed: 0"])
 df2 = pd22.drop_duplicates(keep='first') 
 df22 = df2.sort_values("mean",ascending = False)
 ```
-## Second visualization about malaria_deaths_age dataset
+## visualization of malaria_deaths rate  in world map
+
+![Pelican](../images/map.png)
+
+## visualization about malaria_deaths_age 
 
 ```python
 for age in df22['age_group'].unique():
@@ -99,7 +106,7 @@ for age in df22['age_group'].unique():
 
 ![Pelican](../images/output_15_0.png)
 
-## From this plot, we can see Sub-Saharan Afraica always have highest death from 1990 to 2016. And age Under5 have the greatest death amount.
+### From above plot, we can see Sub-Saharan Afraica always have highest death rate  from 1990 to 2016. And age Under5 have the greatest death amount.
 
 
 ```python
@@ -180,7 +187,7 @@ pd3.head()
 
 
 
-## Third visualization about malaria_in dataset
+##  visualization about malaria_inc
 
 
 ```python
@@ -194,7 +201,7 @@ with plt.xkcd():
 ![Pelican](../images/output_20_0.png)
 
 
-## From this plot, we can see the incidence of malaria decrease from 2000 to 2015. The line for 2000 is the highest and line for 2015 is the lowest
+### From this plot, we can see the incidence of malaria decrease from 2000 to 2015. The line for 2000 is the highest and line for 2015 is the lowest
 
 
 
