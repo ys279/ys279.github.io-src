@@ -1,6 +1,10 @@
-Title: Yiping's Blog3
+Title: Informative Visualizations about Malaria
 Date: 2020-09-20 20:55
-headline: Informative Visualizations about Malaria
+headline: Yiping's Blog3
+
+Create  informative visualizations about malaria using Python 
+Malaria is a serious and sometimes fatal disease caused by a parasite that commonly infects a certain type of mosquito which feeds on humans. Using python to visualize malaria distribution and malaria death
+
 
 
 

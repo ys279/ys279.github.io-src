@@ -3,6 +3,7 @@
 
 AUTHOR = 'Yiping'
 SITENAME = 'Data Science Portfolio'
+SITESUBTITLE = "Welcome to Yiping website"
 SITEURL = ''
 
 PATH = 'content'

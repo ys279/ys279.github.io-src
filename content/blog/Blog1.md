@@ -1,6 +1,10 @@
-Title: Yiping's Blog1
+Title: How to Create a Static Page on Github 
 Date: 2020-08-25 20:55
-headline:How to Create a Static Page on Github 
+headline:Yiping's Blog1
+
+
+This blog mainly talk about how to start a personal website on gitHub pages use pelican. 
+
 
 
 

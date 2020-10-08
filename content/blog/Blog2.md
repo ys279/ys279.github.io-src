@@ -1,6 +1,11 @@
-Title: Yiping's Blog2
+Title: Solutions to Eluer Project
 Date: 2020-09-10 20:55
-headline: Solutions to Eluer Project 
+headline: Yiping's Blog2
+
+
+Solution to selected Eluer Problems   
+
+Project Euler  is a website dedicated to a series of computational problems intended to be solved with computer programs.The project attracts adults and students interested in mathematics and computer programming.
 
 
 
