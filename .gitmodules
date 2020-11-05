@@ -1,3 +1,6 @@
 [submodule "output"]
 	path = output
 	url = https://github.com/ys279/ys279.github.io
+[submodule "plugins/pelican-plotly"]
+	path = plugins/pelican-plotly
+	url = git://github.com/ran404/pelican-plotly.git

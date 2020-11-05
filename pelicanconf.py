@@ -12,6 +12,9 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['pelican-plotly' ]
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
